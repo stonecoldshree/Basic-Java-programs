@@ -1,6 +1,6 @@
 /* THIS JAVA PROGRAM CONTAINS 2ND TYPE OF LOOPING PROBLEMS BASED ON PATTERNS
 THAT CAN BE PERFORMED WITH THEM USING LOOPS USING SWITCH CASE IN A SINGLE PROGRAM
-I AM NOT GETTING THE DESIRED OUTPUT FOR LAST PATTERN PLEASE HELP ME OUT. */
+ */
 import java.util.*;
 public class Looping_problems_part2 {
     public static void main(String[] args) {
@@ -159,7 +159,7 @@ public class Looping_problems_part2 {
                 int row_10= ob.nextInt();
                 for (int n = 1; n <= row_10; n++)
                 {
-                    for (int o = n; o < row_10-n; o++)
+                    for (int o = n; o < row_10; o++)
                     {
                         System.out.print(" ");
                     }
